@@ -249,6 +249,11 @@ func (s *Sessions) StartFasthttp(ctx *fasthttp.RequestCtx) *Session {
 	return sess
 }
 
+// Force the client to reload session from cache
+func (s *Sessions) ReloadSessionWithId(id string) *Session {
+	return s.provider.Init(id, s.config.Expires)
+}
+
 // ShiftExpiration move the expire date of a session to a new date
 // by using session default timeout configuration.
 func ShiftExpiration(w http.ResponseWriter, r *http.Request) {

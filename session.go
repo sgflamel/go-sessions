@@ -260,6 +260,11 @@ func (s *Session) VisitAll(cb func(k string, v interface{})) {
 	s.values.Visit(cb)
 }
 
+// Check numbers of value to make sure muti-containers sitution work well
+func (s *Session) ValueLen() int {
+	return s.values.Len()
+}
+
 func (s *Session) set(key string, value interface{}, immutable bool) {
 	action := ActionCreate // defaults to create, means the first insert.
 
