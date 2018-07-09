@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kataras/go-sessions"
+	"github.com/sgflamel/go-sessions"
 	"github.com/kataras/golog"
 )
 

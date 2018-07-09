@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kataras/go-sessions"
-	"github.com/kataras/go-sessions/sessiondb/redis"
-	"github.com/kataras/go-sessions/sessiondb/redis/service"
+	"github.com/sgflamel/go-sessions"
+	"github.com/sgflamel/go-sessions/sessiondb/redis"
+	"github.com/sgflamel/go-sessions/sessiondb/redis/service"
 )
 
 func main() {

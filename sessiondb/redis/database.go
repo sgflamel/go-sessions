@@ -4,8 +4,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/kataras/go-sessions"
-	"github.com/kataras/go-sessions/sessiondb/redis/service"
+	"github.com/sgflamel/go-sessions"
+	"github.com/sgflamel/go-sessions/sessiondb/redis/service"
 	"github.com/kataras/golog"
 )
 

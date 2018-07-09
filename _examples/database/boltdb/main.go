@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kataras/go-sessions"
-	"github.com/kataras/go-sessions/sessiondb/boltdb"
+	"github.com/sgflamel/go-sessions"
+	"github.com/sgflamel/go-sessions/sessiondb/boltdb"
 )
 
 func main() {

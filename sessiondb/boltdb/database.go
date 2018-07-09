@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/kataras/go-sessions"
+	"github.com/sgflamel/go-sessions"
 	"github.com/kataras/golog"
 )
 
